@@ -9,8 +9,6 @@ const currentYear = currentDate.getFullYear();
 const profilePicture = 'images/IMG_Keillor1';
 
 
-
-
 /* Step 3 - Element Variables */
 const nameElement = document.getElementById ('name');
 const foodElement = document.getElementById ('food');
