@@ -3,7 +3,7 @@
 /* Step 1 - Setup type tasks - no code required */
 
 /* Step 2 - Variables */
-let fullName = 'Keillor Behrmann';
+const fullName = 'Keillor Behrmann';
 const currentDate = new Date();
 const currentYear = currentDate.getFullYear();
 const profilePicture = 'images/IMG_Keillor1JPG';
