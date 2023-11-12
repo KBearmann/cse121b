@@ -6,7 +6,7 @@
 let fullName = 'Keillor Behrmann';
 const currentDate = new Date();
 const currentYear = currentDate.getFullYear();
-const profilePicture = 'images/IMG_Keillor1';
+const profilePicture = 'images/IMG_Keillor1JPG';
 
 
 /* Step 3 - Element Variables */
