@@ -28,14 +28,18 @@ function subtractNumbers () {
 }    
 const buttonElement1 = document.querySelector("#subtractNumbers").addEventListener("click", subtractNumbers)
 /* Arrow Function - Multiply Numbers */
-let mutiply = (number1, number2) => number1 * number2;
+function multiply(number1, number2) {
+    return number1 * number2;
+}
 let multiplyNumbers = () => {
     let multiplyNumber1 = Number(document.querySelector("#factor1").value);
     let multiplyNumber2 = Number(document.querySelector("#factor2").value);
     let product = multiply(multiplyNumber1, multiplyNumber2);
-    document.querySelector("#product").value = product;    
+    document.querySelector("#product").value = product;
 }
-document.querySelector("#multiplyNumbers").addEventListener("click", multiplyNumbers)
+
+document.querySelector("#multiplyNumbers").addEventListener("click", multiplyNumbers);
+
 
 
 /* Open Function Use - Divide Numbers */
@@ -50,6 +54,22 @@ document.querySelector("#divideNumbers").addEventListener("click", divideNumbers
 let currentDate = new Date ();
 let currentYear = currentDate.getFullYear();
 document.querySelector("#Year").value = currentYear;
+
+let getTotal = () => {
+    
+    let subtotal = Number(document.querySelector("#subtotal").value);
+    let isMember = document.querySelector("#member").checked;
+    let total;
+    if (isMember) {
+        total = subtotal - (subtotal * 0.1);
+    } else {
+        total = subtotal;
+    }
+    document.querySelector("#total").value = total.toFixed(2);
+}
+
+document.querySelector("#getTotal").addEventListener("click", getTotal);
+
 
 /* ARRAY METHODS - Functional Programming */
 const numbersA = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
