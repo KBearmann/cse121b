@@ -61,7 +61,7 @@ let getTotal = () => {
     let isMember = document.querySelector("#member").checked;
     let total;
     if (isMember) {
-        total = subtotal - (subtotal * 0.1);
+        total = subtotal - (subtotal * 0.2);
     } else {
         total = subtotal;
     }
