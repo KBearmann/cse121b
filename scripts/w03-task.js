@@ -3,7 +3,7 @@
 /* FUNCTIONS */
 /* Function Definition - Add Numbers */
 function add (number1, number2){
-    return number1+ number2;
+    return number1 + number2;
 }
 
 function addNumbers () {
@@ -13,7 +13,7 @@ function addNumbers () {
 
 }
 
-const buttonElement = doct.querySelector("#addNumbers");
+const buttonElement = document.querySelector("#addNumbers");
 buttonElement.addEventListener("click", addNumbers)
 
 /* Function Expression - Subtract Numbers */
