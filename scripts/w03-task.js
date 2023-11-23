@@ -32,7 +32,8 @@ let mutiply = (number1, number2) => number1 * number2;
 let multiplyNumbers = () => {
     let multiplyNumber1 = Number(document.querySelector("#factor1").value);
     let multiplyNumber2 = Number(document.querySelector("#factor2").value);
-    let sumID3 = document.querySelector("#product").value = multiply(multiplyNumber1, multiplyNumber2);    
+    let product = multiply(multiplyNumber1, multiplyNumber2);
+    document.querySelector("#product").value = product;    
 }
 document.querySelector("#multiplyNumbers").addEventListener("click", multiplyNumbers)
 
@@ -40,11 +41,11 @@ document.querySelector("#multiplyNumbers").addEventListener("click", multiplyNum
 /* Open Function Use - Divide Numbers */
 let divide = (number1, number2) => number1 / number2;
 let divideNumbers = () => {
-    let divideNumber1 = number(document.querySelector("#dividend").value);
-    let divideNumber2 = number(document.querySelector("#divisor").value);
+    let divideNumber1 = Number(document.querySelector("#dividend").value);
+    let divideNumber2 = Number(document.querySelector("#divisor").value);
     document.querySelector("#quotient").value = divide(divideNumber1, divideNumber2);
 }
-document.querySelector("#divideNumbers").addEventListener("click, divideNumbers");
+document.querySelector("#divideNumbers").addEventListener("click", divideNumbers);
 /* Decision Structure */
 let currentDate = new Date ();
 let currentYear = currentDate.getFullYear();
@@ -64,8 +65,8 @@ document.querySelector("#evens").textContent = evens;
 const sumA = numbersA.reduce((sum, numbers) => sum + numbers);
 document.querySelector("#sumOfArray").textContent = sumA;
 /* Output Multiplied by 2 Array */
-const mult = numbersA.map((numbers) => numbers *2);
-document.querySelector("#multiplied").textContent = mult;
+const mult = numbersA.map((numbers) => numbers * 2);
+document.querySelector("#multiplied").value = mult.join(", ");
 /* Output Sum of Multiplied by 2 Array */
 const sumMult = mult.reduce((sum, numbers) => sum + numbers, 0);
-document.querySelector("#sumOfMultiplicatied").textContent = sumMult;
+document.querySelector("#sumOfMultiplied").value = sumMult;
