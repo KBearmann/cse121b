@@ -1,0 +1,20 @@
+
+
+[
+    {
+      "recipeName": "Classic Spaghetti",
+      "ingredients": "500g ground beef, 2 onions, 2 cloves garlic, 2 8oz canned tomatoes, 2 tbsp tomato paste, 1 tsp oregano, 1 tsp basil, salt, pepper, 300g spaghetti",
+      "instructions": "1. Cook spaghetti according to package instructions. 2. In a pan, brown ground beef. 3. Add chopped onion and garlic, cook until softened. 4. Pour in canned tomatoes and tomato paste. 5. Season with oregano, basil, salt, and pepper. 6. Simmer for 15-20 minutes. 7. Serve over cooked spaghetti."
+    },
+    {
+      "recipeName": "Chicken Caesar Salad",
+      "ingredients": "2 boneless, skinless chicken breasts, Romaine lettuce, croutons, Parmesan cheese, Caesar dressing",
+      "instructions": "1. Season chicken breasts with salt and pepper. 2. Grill or cook chicken until fully cooked. 3. Chop Romaine lettuce and place in a large bowl. 4. Slice cooked chicken and add to the bowl. 5. Toss with croutons, Parmesan cheese, and Caesar dressing. 6. Serve immediately."
+    },
+    {
+      "recipeName": "Vegetarian Quinoa Bowl",
+      "ingredients": "1 cup quinoa, 2 cups water, mixed vegetables (e.g., broccoli, bell peppers, carrots), olive oil, salt, pepper, feta cheese",
+      "instructions": "1. Rinse quinoa under cold water. 2. In a saucepan, combine quinoa and water. Bring to a boil, then reduce heat and simmer until water is absorbed. 3. Chop and steam mixed vegetables. 4. In a pan, sauté cooked quinoa and vegetables in olive oil. 5. Season with salt and pepper. 6. Serve in bowls, topped with crumbled feta cheese."
+    }
+  ]
+  
