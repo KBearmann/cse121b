@@ -1,0 +1,58 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Me | CSE 121b | W02: Programming Tasks</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+          rel="stylesheet">
+        <link rel="stylesheet" href="styles/main.css">
+        <title>Recipe Book</title>
+        <script src="scripts/recipeBook.js" defer></script>
+      </head>
+</head>
+
+<body>
+    <nav>
+        <ul id="menu">
+          <li><a id="toggleMenu">&equiv;</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="w01-task.html">W1 Task</a></li>
+          <li><a href="w03-task.html">W3 Task</a></li>
+          <li><a href="w04-task.html">W4 Task</a></li>
+          <li><a href="w05-task.html">W5 Task</a></li>
+          <li><a href="project.html">Project</a></li>
+        </ul>
+      </nav>
+  <div class="container">
+    <h1>Recipe Book</h1>
+
+    <form id="recipeForm">
+      <label for="recipeName">Recipe Name:</label>
+      <input type="text" id="recipeName" required>
+
+      <label for="ingredients">Ingredients:</label>
+      <textarea id="ingredients" required></textarea>
+
+      <label for="instructions">Instructions:</label>
+      <textarea id="instructions" required></textarea>
+
+      <button type="submit">Add Recipe</button>
+    </form>
+
+    <ul id="recipeList"></ul>
+  </div>
+  <footer>
+    &copy;<span id="year"></span> | About Me | CSE 121b
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/w02-task.js"></script>
+</body>
+
+</html>
