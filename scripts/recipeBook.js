@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Fetch external recipe data using the jsonplaceholder API for demonstration
     async function fetchExternalData() {
       try {
-        const response = await fetch('https://kbehrmann.github.io/cse121b/Project/json/recipe.json');
+        const response = await fetch('https://raw.githubusercontent.com/KBearmann/cse121b/main/json/recipe.json');
         const externalData = await response.json();
         externalData.forEach(recipe => addRecipeFromExternalData(recipe));
       } catch (error) {
