@@ -6,10 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
   
     let recipes = [];
   
-    // Fetch external recipe data using the jsonplaceholder API for demonstration
+    // Fetch external recipe data 
     async function fetchExternalData() {
       try {
-        const response = await fetch('https://raw.githubusercontent.com/KBearmann/cse121b/main/json/recipe.json');
+        const response = await fetch('https://my-json-server.typicode.com/KBehrmann/recipe/dc.json');
         const externalData = await response.json();
         externalData.forEach(recipe => addRecipeFromExternalData(recipe));
       } catch (error) {
