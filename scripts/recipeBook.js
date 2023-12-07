@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Fetch external recipe data 
     async function fetchExternalData() {
         try {
-            const response = await fetch('https://my-json-server.typicode.com/KBearmann/recipes/db.json'); 
+            const response = await fetch('https://kbearmann.github.io/recipe/db.json'); 
             const externalData = await response.json();
             externalData.forEach(recipe => addRecipeFromExternalData(recipe));
         } catch (error) {
